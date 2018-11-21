@@ -24,6 +24,13 @@ body {
     background-color: #328cc1;
     color: black;
 }
+.logo{
+float: left !important;
+color: #d9b310 !important;
+text-align: center !important;
+font-size: 25px !important;
+}
+
 .description{
    height: 100px;
 }
