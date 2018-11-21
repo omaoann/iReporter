@@ -3,6 +3,12 @@ body {
     padding: 0%;
     font-size: 15px;
 }
+h2{
+    font-size: 1.25rem;
+    color: #0b3c5d;
+    text-align: center;
+    padding: 10px;
+}
 
 /* Add a black background color to the top navigation */
 .top_nav_bar {
@@ -57,4 +63,51 @@ text-align: center;
 font-size: 25px;
 color: #d9b310;
 text-align: center;
+}
+.form{
+    background: white;
+    width: 400px;
+    margin: 0 auto 0 auto;
+    padding: 0px 0px 70px 0px;
+    color: #1D2731;
+    font-size: 20px;
+}
+
+.email{
+background: #ecf0f1;
+border: #ccc 1px solid;
+border-bottom: #ccc 1px solid;
+border-radius: 4px;
+width: 350px;
+padding: 8px;
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+font-size: 1em;
+color:#1D2731;
+
+}
+.password{
+    background: #ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 1px solid;
+    border-radius: 4px;
+    width: 350px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    color:#1D2731;
+}
+.btn{
+    background:#1D2731;
+    width:150px;
+    padding-top:5px;
+    color:white;
+    border-radius:4px;
+    margin-top:20px;
+    margin-left: 125px;
+    font-weight:800;
+    font-size:1.2em;
+  }
 }
