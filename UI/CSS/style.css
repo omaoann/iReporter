@@ -159,7 +159,7 @@ color:#1D2731;
     float: left;
     background-color: #a7b8c0;
 }
-/*
+
 #resolved{
     width:150px;
     height:150px;
@@ -171,6 +171,7 @@ color:#1D2731;
     margin-top: 15px;
     margin-left: 25px;
 }
+/*
 #rejected{
     width:150px;
     height:150px;
@@ -193,11 +194,11 @@ color:#1D2731;
     margin-top: 15px;
     margin-left: 75px;
 }
-
+*/
 .records{
     padding: 1px 2px 1px 5px;
 }
-*/
+
 .user_details{
     padding: 10px 30px;
     
