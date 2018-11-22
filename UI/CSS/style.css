@@ -68,7 +68,7 @@ text-align: center;
     background: white;
     width: 400px;
     margin: 0 auto 0 auto;
-    padding: 0px 0px 70px 0px;
+    padding: 0px 0px 60px 0px;
     color: #1D2731;
     font-size: 20px;
 }
@@ -85,8 +85,23 @@ margin-left: 10px;
 margin-bottom: 10px;
 font-size: 1em;
 color:#1D2731;
-
 }
+
+.username{
+    background: #ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 1px solid;
+    border-radius: 4px;
+    width: 350px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color:#1D2731;
+    
+    }
+
 .password{
     background: #ecf0f1;
     border: #ccc 1px solid;
@@ -110,3 +125,17 @@ color:#1D2731;
     font-weight:800;
     font-size:1.2em;
   }
+
+.log_in{
+    text-align: center;
+    color: #1D2731;
+    font-size: 1.1em;
+}
+
+.sign_up{
+    text-align: center;
+    color: #1D2731;
+    font-size: 1.1em;
+    float: right;
+    padding: 10px;
+}
