@@ -3,20 +3,24 @@ body {
     padding: 0%;
     font-size: 15px;
 }
-h2{
+h2 {
     font-size: 1.25rem;
     color: #0b3c5d;
     text-align: center;
     padding: 10px;
 }
+h4 {
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
+}
 
-/* Add a black background color to the top navigation */
 .top_nav_bar {
     background-color: #0b3c5d;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
+
 .top_nav_bar a {
     float: right;
     color: #f2f2f2;
@@ -138,4 +142,75 @@ color:#1D2731;
     font-size: 1.1em;
     float: right;
     padding: 10px;
+}
+#main{
+    width: 100%;
+    margin: auto 0;
+}
+#account_details{
+    width: 60%;
+    height: 100%;
+    float: left;
+    background: white;
+}
+#user_profile{
+    width: 40%;
+    height:100%;
+    float: left;
+    background-color: #a7b8c0;
+}
+/*
+#resolved{
+    width:150px;
+    height:150px;
+    float: left;
+    border: #328cc1 1px solid;
+    border-top: #328cc1 4px solid;
+    border-bottom: #328cc1 4px solid;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#rejected{
+    width:150px;
+    height:150px;
+    float: right;
+    border: #328cc1 1px solid;
+    border-top: #328cc1 4px solid;
+    border-bottom: #328cc1 4px solid;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+#not_yet_resolved{
+    width:150px;
+    height:150px;
+    float: left;
+    border: #328cc1 1px solid;
+    border-top: #328cc1 4px solid;
+    border-bottom: #328cc1 4px solid;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.records{
+    padding: 1px 2px 1px 5px;
+}
+*/
+.user_details{
+    padding: 10px 30px;
+    
+}
+#edit_profile_btn{
+    background:#328cc1;
+    width:150px;
+    padding-top:5px;
+    color:white;
+    border-radius:4px;
+    margin-top:20px;
+    margin-left: 185px;
+    font-weight:800;
+    font-size:1.2em;
+    text-align: center
 }
