@@ -172,7 +172,7 @@ color:#1D2731;
     margin-left: 25px;
 }
 /*
-#rejected{
+#not_yet_resolved{
     width:150px;
     height:150px;
     float: right;
@@ -183,7 +183,8 @@ color:#1D2731;
     margin-top: 15px;
     margin-right: 25px;
 }
-#not_yet_resolved{
+*/
+#rejected{
     width:150px;
     height:150px;
     float: left;
@@ -194,7 +195,7 @@ color:#1D2731;
     margin-top: 15px;
     margin-left: 75px;
 }
-*/
+
 .records{
     padding: 1px 2px 1px 5px;
 }
