@@ -16,7 +16,7 @@ h4 {
 }
 table{
     width: 90%;
-    margin-left: 5px;
+    margin-left: 50px;
 }
 table, th, td {
     border: 1px solid #328cc1;
@@ -215,3 +215,32 @@ color:#1D2731;
     background-color: #328cc1;
     color: black;
 }
+.create{
+    text-align: center;
+    color: #1D2731;
+    font-size: 1.1em;
+    float: right;
+    margin-right: 20px
+}
+.btn1{
+    background:#1D2731;
+    width:150px;
+    padding-top:5px;
+    color:white;
+    border-radius:4px;
+    margin-top:20px;
+    float: left;
+    font-weight:800;
+    font-size:1.1em;
+  }
+  .btn2{
+    background:#1D2731;
+    width:150px;
+    padding-top:5px;
+    color:white;
+    border-radius:4px;
+    margin-top:20px;
+    float: right;
+    font-weight:800;
+    font-size:1.1em;
+  }
