@@ -137,8 +137,8 @@ color:#1D2731;
     margin-top: 15px;
     margin-left: 25px;
 }
-/*
-#not_yet_resolved{
+
+#unresolved{
     width:150px;
     height:150px;
     float: right;
@@ -149,7 +149,7 @@ color:#1D2731;
     margin-top: 15px;
     margin-right: 25px;
 }
-*/
+
 #rejected{
     width:150px;
     height:150px;
@@ -159,7 +159,7 @@ color:#1D2731;
     border-bottom: #328cc1 4px solid;
     border-radius: 20px;
     margin-top: 15px;
-    margin-left: 75px;
+    margin-left: 135px;
 }
 
 .records{
