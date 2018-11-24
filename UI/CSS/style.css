@@ -208,10 +208,18 @@ color:#1D2731;
 }
 .create{
     text-align: center;
-    color: #1D2731;
+    color:#1D2731;
     font-size: 1.1em;
-    float: right;
-    margin-right: 20px
+    float: left;
+    margin-left: 20px;
+    background-color: #d9b310;
+    padding: 3px 8px 3px 8px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 4px;
+    
 }
 .btn1{
     background:#1D2731;
