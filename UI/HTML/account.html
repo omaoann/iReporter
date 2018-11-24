@@ -8,62 +8,68 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../CSS/style.css" />
 </head>
 <body>
-    <div class="top_nav_bar">
-        <a href="#" class="logo">iReporter</a>
-        <a href="index.html">LOG OUT</a>
-        <a href="redflag.html">RED FLAG</a>
-        <a href="#">INTERVENTIONS</a>
-        <a href="#">HOME</a>
-    </div> 
-    <div id="main">
+<div class="top_nav_bar">
+    <a href="#" class="logo">iReporter</a>
+    <a href="admin.html">ADMIN</a>
+    <a href="index.html">LOG OUT</a>
+    <a href="redflag.html">RED FLAG</a>
+    <a href="#">INTERVENTIONS</a>
+    <a href="index.html">HOME</a>
+</div> 
+<div id="main" >
         
-    <div id="account_details">
-        <h2>User Records Summary</h2>
-        <div id="resolved">
-            <h4>Resolved Records</h4>
-            <p class="records">Red flags:</p>
-            <p class="records">Interventions:</p>
-        </div>
-        <div id="rejected">
-                <h4>Rejected Records</h4>
-                <p class="records">Red flags:</p>
-                <p class="records">Interventions:</p>
-        </div>
-        <div id="unresolved">
-                <h4>Unresolved Records</h4>
-                <p class="records">Red flags:</p>
-                <p class="records">Interventions:</p>
-        </div>
-<div style="margin-top:250px">
+<div id="account_details">
+    <h2>User Records Summary</h2>
+    <div class="record_number">
+      <div>
+        <h4>Resolved Records</h4>
+        <p class="record_type">Red flags:</p>
+        <p class="record_type">Interventions:</p>
+      </div>
+      <div>
+        <h4>Rejected Records</h4>
+        <p class="record_type">Red flags:</p>
+        <p class="record_type">Interventions:</p>
+      </div>
+      <div>
+          <h4>Unresolved Records</h4>
+          <p class="record_type">Red flags:</p>
+          <p class="record_type">Interventions:</p>
+      </div>
+    </div>
+
+    <div class="records">
+      <div>
         <h2>List of Records</h2>
-    </div>
-    <div class="record_option">
+      </div>
+      <div class="record_option">
         <select class="record_list">
-            <option>Red Flag</option>
-            <option>Interventions</option>
+        <option>Red Flag</option>
+        <option>Interventions</option>
         </select>
-    </div>
-    <table>
+      </div>
+      <table>
         <tr>
-            <th>User Name</th>
-            <th>Record Name</th>
-            <th>Description</th>
-            <th>Date</th>
-            <th>Geolocation</th>
+        <th>User Name</th>
+        <th>Record Name</th>
+        <th>Description</th>
+        <th>Date</th>
+        <th>Geolocation</th>
         </tr>
-    </table>
+      </table>
     </div> 
+</div>
     <div id="user_profile">
-            <input type="image" src="../IMAGES/noprofile.jpeg" alt="No profile photo" style="margin-left: 90px; margin-top: 10px; width: 300px;height: 250px;">
-            <h4>User Details</h4>
-            <p class="user_details">FIRST NAME:</p>
-            <p class="user_details">LAST NAME:</p>
-            <p class="user_details">EMAIL:</p>
-            <div id="edit_profile_btn">Edit profile</div>
+        <input type="image" src="../IMAGES/noprofile.jpeg" alt="No profile photo" style="margin-left: 90px; margin-top: 10px; width: 300px;height: 250px;">
+        <h4>User Details</h4>
+        <p class="user_details">FIRST NAME:</p>
+        <p class="user_details">LAST NAME:</p>
+        <p class="user_details">EMAIL:</p>
+        <div id="edit_profile_btn">Edit profile</div>
     </div> 
-    </div>
-    <div class="footer">
-            <p>&nbsp;iReporterCorporation</p>
-    </div>
+</div>
+<div class="footer">
+    <p>&nbsp;iReporterCorporation</p>
+</div>
 </body>
 </html>
