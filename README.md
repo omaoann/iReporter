@@ -1,2 +1,2 @@
 # iReporter
- [gh-pages](https://omaoann.github.io/iReporter/)
+ [gh-pages](https://omaoann.github.io/iReporter/HTML)
