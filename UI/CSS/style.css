@@ -233,6 +233,18 @@ color:#1D2731;
     color: black;
     font-weight: bold;
 }
+
+button{
+    background:#38d910;
+    width:150px;
+    padding-top:2px;
+    color:white;
+    border-radius:2px;
+    margin-top:20px;
+    font-weight:800;
+    font-size:1.1em;
+  }
+
 .btn1{
     background:#1D2731;
     width:150px;
